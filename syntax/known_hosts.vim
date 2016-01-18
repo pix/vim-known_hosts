@@ -24,7 +24,7 @@ endif
 
 syn case ignore
 
-syn keyword knownHostsKeyword ssh-rsa ssh-dsa
+syn keyword knownHostsKeyword ssh-rsa ssh-dsa ssh-dss ecdsa-sha2-nistp256 ecdsa-sha2-nistp384 ecdsa-sha2-nistp521 ssh-ed25519
 syn match   knownHostsHost    "^[^ ]\+" 
 syn match   knownHostsKey     "[^ ]\+$"
 
